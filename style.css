@@ -3,16 +3,6 @@
 @media only screen and (max-width: 750px)
 	
 {
-	body {
-  background-color: white;
-  color: black;
-}
-
-.dark-mode {
-  background-color: #474747;
-  color: white;
-  
-}
 	
 	* {
 		margin: 0;
@@ -50,9 +40,7 @@
 		padding: 10px;
 		font-size: 150%;
 		margin-bottom: 10px;
-		background-color: rgba(255,255,255,1.00)
 	}
-	
 	
 	#overblik {
 		color: #000000;
@@ -99,31 +87,21 @@
 		font-size: 180%;
 		text-align: center;
 		width: 100%;
-		/*border-style: solid;*/
-		border: none;
-		border-bottom: thin;
-		border-top: thin;
-		border-color: #8C8C8C;
-		background: none;
+		border-style: solid;
+		border-color: #ededed;
 	}
 	
 	.field {
 		width: 100%;
 		border-style: none;
-		background: none;
-	}
-	
-	.input {
-		background: none;
+		background-color: #ffffff;
 	}
 	
 	.button {
-		width: 10%;
-		/*background-color: #ffffff;*/
+		width: 8%;
+		background-color: #ffffff;
 		border-style: none;
 		opacity: 40%;
-	
-		
 	}
 	
 	.names {
@@ -134,39 +112,32 @@
 		padding: 20px;
 		font-family: arial, sans-serif;
 		font-size: 200%;
-		/*color: #8b8b8b;*/
-		color: black;
-		border: #4A4A4A;
+		color: #8b8b8b;
 	}
 	
 	.ajl {
-		background-color: rgba(211, 211, 211, 0.8);
-		opacity: 0.3;
-		
+		background-color: #EDEDED;
 	}
 	
 	.ajm {
 	}
 	
 	.bks {
-		background-color: rgba(211, 211, 211, 0.8);
-		opacity: 0.3;
+		background-color: #EDEDED;
 	}
 	
 	.hsm {;
 	}
 	
 	.jbn {
-		background-color: rgba(211, 211, 211, 0.8);
-		opacity: 0.3;
+		background-color: #EDEDED;
 	}
 	
 	.jdb {
 	}
 	
 	.tls {
-		background-color: rgba(211, 211, 211, 0.8);
-		opacity: 0.3;
+		background-color: #EDEDED;
 	}
 	
 	.lys {
@@ -183,15 +154,14 @@
 	.lysbut {
 		width: 15%;
 		border-style: none;
-		background: none;
-		
+		background-color: #ffffff;
 	}
 	
 	.awarebut {
 		width: 15%;
 		border-style: none;
 		float: right;
-		background: none;
+		background-color: #ffffff;
 	}
 
 }

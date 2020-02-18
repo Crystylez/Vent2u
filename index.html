@@ -1,41 +1,38 @@
 <!doctype html>
-<html lang="da">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Loginside</title>
-<link rel="stylesheet" href="stylesheet.css">
-<script type="text/javascript" src="darkmode.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+<script defer src="https://fontawesome.com/icons/search?style=solid"></script>
+<title>Overblik</title>
 </head>
-
 <body>
-	
-	<button1 onclick="myFunction()" class="dark"><img class="lys1" src="lit.png" alt="Lys"></button1>
-	
-<section class="login">
-	<img src="logo2.png" class="logo" alt="Vent2U Logo">
-
-	<img src="sky.png" class="sky1" alt="sky">
-</section>
-
-	
-	
-<section class="knapper" >
-	<a href="kenny/drive-download-20200217T113821Z-001/bruger.html" class="bruger"><button >Bruger</button></a>
-	<a href="kenny/drive-download-20200217T113821Z-001/chef.html" class="chef"><button >Chef</button></a>
-	<a href="kenny/drive-download-20200217T113821Z-001/administrator.html" class="administrator"><button >Administrator</button></a>
-	<!-- <a href="indstillinger.html" class="administrator"><button >Administrator</button></a> -->
-	<!-- <a href="#" class="chef"><button >Chef</button></a> -->
-</section>
-
-<section class="skyen2">
-	<img src="sky.png" class="sky2" alt="sky">
-</section>
-
-	
+	<ul>
+		<li class="grid">
+			<a id="overblik">Overblik</a>
+			<a id="settings" href="#">Indstillinger</a>
+			<a id="login" href="#">Log ud</a>
+		</li>
+	</ul>
+	<button class="lysbut"><img class="lys" src="lit.png" alt="Lys"></button>
+	<button class="awarebut"><img class="aware" src="look.png" alt="Aware"></button>
+	<p class="titel">OVERBLIK</p>
+	<div class="search">
+		<button class="field"><img class="button" src="icon.png"></button>
+		<input type="text" placeholder="Søg" name="search">
+	</div>
+		<ul>
+			<li class="names">
+				<p class="ajl">AJL</p>
+				<p class="ajm">AJM</p>
+				<p class="bks">BKS</p>
+				<p class="hsm">HSM</p>
+				<p class="jbn">JBN</p>
+				<p class="jdb">JDB</p>
+				<p class="tls">TLS</p>
+			</li>
+		</ul>
 </body>
 </html>
-
-
-
-
